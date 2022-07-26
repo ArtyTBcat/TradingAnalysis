@@ -1,0 +1,518 @@
+<?xml version='1.0' encoding='utf-8'?>
+<interface version="1.1">
+  <object class="ttk.Frame" id="frame1">
+    <property name="height">1000</property>
+    <property name="relief">flat</property>
+    <property name="width">1000</property>
+    <layout manager="pack">
+      <property name="propagate">True</property>
+      <property name="side">top</property>
+    </layout>
+    <child>
+      <object class="ttk.Label" id="label2">
+        <property name="background">#ddfcff</property>
+        <property name="text" translatable="yes">Control Panel</property>
+        <layout manager="grid">
+          <property name="column">1</property>
+          <property name="propagate">True</property>
+          <property name="row">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Button" id="graphshort">
+        <property name="command" type="command" cbtype="simple">graphshort</property>
+        <property name="text" translatable="yes">graphshort</property>
+        <layout manager="grid">
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">1</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Button" id="run_off">
+        <property name="command" type="command" cbtype="simple">run_off</property>
+        <property name="text" translatable="yes">run/off</property>
+        <layout manager="grid">
+          <property name="column">1</property>
+          <property name="propagate">True</property>
+          <property name="row">1</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Button" id="graphlong">
+        <property name="command" type="command" cbtype="simple">graphlong</property>
+        <property name="text" translatable="yes">graphlong</property>
+        <layout manager="grid">
+          <property name="column">2</property>
+          <property name="propagate">True</property>
+          <property name="row">1</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Combobox" id="combobox1">
+        <property name="exportselection">true</property>
+        <property name="state">normal</property>
+        <property name="textvariable">string:combox</property>
+        <property name="validate">all</property>
+        <property name="validatecommand" type="command" cbtype="entry_validate" args="%d %i %P %s %S %v %V %W">combox</property>
+        <property name="values">BTC BNB ETH DOGE ADA XRP SOL TRX VET FTM DOT LTC ATOM MATIC AVAX LUNA LINK COTI ALGO RAY POND FTT</property>
+        <property name="width">30</property>
+        <layout manager="grid">
+          <property name="column">1</property>
+          <property name="propagate">True</property>
+          <property name="row">4</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Checkbutton" id="check">
+        <property name="command" type="command" cbtype="simple">check_check</property>
+        <property name="state">normal</property>
+        <property name="text" translatable="yes">check</property>
+        <layout manager="grid">
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">5</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Label" id="label6">
+        <property name="background">#ffff80</property>
+        <property name="foreground">#000000</property>
+        <property name="text" translatable="yes">status</property>
+        <layout manager="grid">
+          <property name="column">1</property>
+          <property name="propagate">True</property>
+          <property name="row">6</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Checkbutton" id="check1">
+        <property name="command" type="command" cbtype="simple">check1_check</property>
+        <property name="text" translatable="yes">check1</property>
+        <layout manager="grid">
+          <property name="column">1</property>
+          <property name="propagate">True</property>
+          <property name="row">5</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Checkbutton" id="check2">
+        <property name="command" type="command" cbtype="simple">check2_check</property>
+        <property name="text" translatable="yes">check2</property>
+        <layout manager="grid">
+          <property name="column">2</property>
+          <property name="propagate">True</property>
+          <property name="row">5</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Labelframe" id="labelframe1">
+        <property name="height">200</property>
+        <property name="text" translatable="yes">transaction</property>
+        <property name="width">200</property>
+        <layout manager="grid">
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">7</property>
+        </layout>
+        <child>
+          <object class="ttk.Label" id="label7">
+            <property name="background">#ea0000</property>
+            <property name="text" translatable="yes">label7</property>
+            <layout manager="pack">
+              <property name="propagate">True</property>
+              <property name="side">left</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Button" id="buy">
+            <property name="command" type="command" cbtype="simple">buy</property>
+            <property name="text" translatable="yes">buy</property>
+            <layout manager="pack">
+              <property name="propagate">True</property>
+              <property name="side">top</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Button" id="sell">
+            <property name="command" type="command" cbtype="simple">sell</property>
+            <property name="text" translatable="yes">sell</property>
+            <layout manager="pack">
+              <property name="propagate">True</property>
+              <property name="side">top</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Labelframe" id="control">
+        <property name="height">200</property>
+        <property name="text" translatable="yes">control</property>
+        <property name="width">200</property>
+        <layout manager="grid">
+          <property name="column">1</property>
+          <property name="propagate">True</property>
+          <property name="row">7</property>
+        </layout>
+        <child>
+          <object class="ttk.Label" id="label8">
+            <property name="background">#3fa600</property>
+            <property name="text" translatable="yes">label8</property>
+            <layout manager="pack">
+              <property name="propagate">True</property>
+              <property name="side">left</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Button" id="button14">
+            <property name="command" type="command" cbtype="simple">button14</property>
+            <property name="text" translatable="yes">button14</property>
+            <layout manager="pack">
+              <property name="propagate">True</property>
+              <property name="side">top</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Button" id="button15">
+            <property name="command" type="command" cbtype="simple">button15</property>
+            <property name="text" translatable="yes">button15</property>
+            <layout manager="pack">
+              <property name="propagate">True</property>
+              <property name="side">top</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Labelframe" id="labelframe4">
+        <property name="height">200</property>
+        <property name="text" translatable="yes">output</property>
+        <property name="width">200</property>
+        <layout manager="grid">
+          <property name="column">2</property>
+          <property name="propagate">True</property>
+          <property name="row">7</property>
+        </layout>
+        <child>
+          <object class="ttk.Label" id="label10">
+            <property name="background">#629dff</property>
+            <property name="text" translatable="yes">label8</property>
+            <layout manager="pack">
+              <property name="propagate">True</property>
+              <property name="side">left</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Button" id="button16">
+            <property name="command" type="command" cbtype="simple">button16</property>
+            <property name="text" translatable="yes">button16</property>
+            <layout manager="pack">
+              <property name="propagate">True</property>
+              <property name="side">top</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Button" id="button17&#10;">
+            <property name="command" type="command" cbtype="simple">button17</property>
+            <property name="text" translatable="yes">button17</property>
+            <layout manager="pack">
+              <property name="propagate">True</property>
+              <property name="side">top</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Frame" id="frame4">
+        <property name="height">200</property>
+        <property name="relief">flat</property>
+        <property name="width">200</property>
+        <layout manager="grid">
+          <property name="column">1</property>
+          <property name="propagate">True</property>
+          <property name="row">8</property>
+        </layout>
+        <child>
+          <object class="tk.OptionMenu" id="optionmenu2">
+            <layout manager="pack">
+              <property name="propagate">True</property>
+              <property name="side">top</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Button" id="submit">
+        <property name="command" type="command" cbtype="simple">submit</property>
+        <property name="text" translatable="yes">submit</property>
+        <layout manager="grid">
+          <property name="column">2</property>
+          <property name="propagate">True</property>
+          <property name="row">4</property>
+        </layout>
+      </object>
+    </child>
+  </object>
+  <object class="ttk.Frame" id="frame2">
+    <property name="height">1000</property>
+    <property name="relief">flat</property>
+    <property name="width">1000</property>
+    <layout manager="pack">
+      <property name="propagate">True</property>
+      <property name="side">top</property>
+    </layout>
+    <child>
+      <object class="tk.Label" id="label1">
+        <property name="background">#a4ffff</property>
+        <property name="compound">top</property>
+        <property name="foreground">#000000</property>
+        <property name="text" translatable="yes">Bruh</property>
+        <layout manager="grid">
+          <property name="column">3</property>
+          <property name="propagate">True</property>
+          <property name="row">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="button2">
+        <property name="justify">left</property>
+        <property name="text" translatable="yes">BTC_</property>
+        <layout manager="grid">
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">1</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="button3">
+        <property name="text" translatable="yes">BNB_</property>
+        <layout manager="grid">
+          <property name="column">1</property>
+          <property name="propagate">True</property>
+          <property name="row">1</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="button4">
+        <property name="text" translatable="yes">ETH_</property>
+        <layout manager="grid">
+          <property name="column">2</property>
+          <property name="propagate">True</property>
+          <property name="row">1</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="button5">
+        <property name="text" translatable="yes">DOGE</property>
+        <layout manager="grid">
+          <property name="column">3</property>
+          <property name="propagate">True</property>
+          <property name="row">1</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="button9">
+        <property name="text" translatable="yes">ADA_</property>
+        <layout manager="grid">
+          <property name="column">4</property>
+          <property name="propagate">True</property>
+          <property name="row">1</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="button10">
+        <property name="text" translatable="yes">XRP_</property>
+        <layout manager="grid">
+          <property name="column">5</property>
+          <property name="propagate">True</property>
+          <property name="row">1</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="button11">
+        <property name="text" translatable="yes">SOL_</property>
+        <layout manager="grid">
+          <property name="column">6</property>
+          <property name="propagate">True</property>
+          <property name="row">1</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="button12">
+        <property name="text" translatable="yes">TRX_</property>
+        <layout manager="grid">
+          <property name="column">1</property>
+          <property name="propagate">True</property>
+          <property name="row">3</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="button13">
+        <property name="text" translatable="yes">VET_</property>
+        <layout manager="grid">
+          <property name="column">2</property>
+          <property name="propagate">True</property>
+          <property name="row">3</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="button17">
+        <property name="text" translatable="yes">FTM_</property>
+        <layout manager="grid">
+          <property name="column">3</property>
+          <property name="propagate">True</property>
+          <property name="row">3</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="button18">
+        <property name="text" translatable="yes">DOT_</property>
+        <layout manager="grid">
+          <property name="column">4</property>
+          <property name="propagate">True</property>
+          <property name="row">3</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="button19">
+        <property name="text" translatable="yes">LTC_</property>
+        <layout manager="grid">
+          <property name="column">5</property>
+          <property name="propagate">True</property>
+          <property name="row">3</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="button20">
+        <property name="text" translatable="yes">ATOM</property>
+        <layout manager="grid">
+          <property name="column">1</property>
+          <property name="propagate">True</property>
+          <property name="row">4</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="button21">
+        <property name="text" translatable="yes">MATC</property>
+        <layout manager="grid">
+          <property name="column">2</property>
+          <property name="propagate">True</property>
+          <property name="row">4</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="button22">
+        <property name="text" translatable="yes">AVAX</property>
+        <layout manager="grid">
+          <property name="column">3</property>
+          <property name="propagate">True</property>
+          <property name="row">4</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="button23">
+        <property name="text" translatable="yes">LUNA</property>
+        <layout manager="grid">
+          <property name="column">4</property>
+          <property name="propagate">True</property>
+          <property name="row">4</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="button24">
+        <property name="text" translatable="yes">LINK</property>
+        <layout manager="grid">
+          <property name="column">5</property>
+          <property name="propagate">True</property>
+          <property name="row">4</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="button25">
+        <property name="text" translatable="yes">COTI</property>
+        <layout manager="grid">
+          <property name="column">1</property>
+          <property name="propagate">True</property>
+          <property name="row">5</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="button26">
+        <property name="text" translatable="yes">ALGO</property>
+        <layout manager="grid">
+          <property name="column">2</property>
+          <property name="propagate">True</property>
+          <property name="row">5</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="button27">
+        <property name="text" translatable="yes">RAY_</property>
+        <layout manager="grid">
+          <property name="column">3</property>
+          <property name="propagate">True</property>
+          <property name="row">5</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="button28">
+        <property name="text" translatable="yes">POND</property>
+        <layout manager="grid">
+          <property name="column">4</property>
+          <property name="propagate">True</property>
+          <property name="row">5</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="button29">
+        <property name="text" translatable="yes">FTT_</property>
+        <layout manager="grid">
+          <property name="column">5</property>
+          <property name="propagate">True</property>
+          <property name="row">5</property>
+        </layout>
+      </object>
+    </child>
+  </object>
+</interface>
