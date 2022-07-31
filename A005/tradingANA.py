@@ -1,11 +1,14 @@
-import pandas as pd
+import logging
 from binance import Client
 from A004_copy.A004_01 import main as A004Main
 import yfinance as yf
 import time
+from datetime import datetime
 
 currency = ['BTC', 'ETH', 'BNB']
 
+logging.basicConfig(filename='log.log',
+                    encoding='utf-8', level=logging.DEBUG)
 
 client = Client('XzHurmeqBHZRopTs9jPBtYa1IpJopkm12gE4zE6DTMpU7sTPJHE6lDH5cSUvUkCx',
                 'rdzqLgixUH7Svt82zb0Hc8ESkwydRA4Sj4pwVW8NazfuNod8zORTxYJoEMRZRUs9')
@@ -18,11 +21,19 @@ def APIdata(tickerNum: int):  # DataSet historical[1],
     return historicalClose
 
 
+def error():
+    import sys
+    error_msg = sys.exc_info()
+    print('error: ', error_msg)
+    logging.error(error_msg)
+
+
 class transaction:
     A_SHARE = 100
     DECI = [5, 4, 3]
 
     def buy(tickerNum: int, predicted: float):
+        logging.debug("Making transaction")
         price = client.get_symbol_ticker(symbol=currency[tickerNum] + 'USDT')
         # PREDICTED_PRICE = round(
         #     A004Main(tickerNum)['predictedPrice'], transaction.DECI[tickerNum])
@@ -40,12 +51,11 @@ class transaction:
             tickerNum, price, predictPrice, predicted,  currency_quantity, side='BUY')
 
     def save_transaction(tickerNum: int, price: float, predicted_sellAt: any, predict_percent: float, amountINcurrency: float, side: str):
-        import pickle
         import json
-        from datetime import datetime
         transaction_dict = {'period': datetime.now().strftime(
             '%m/%d/%Y, %H:%M:%S'), 'currency': currency[tickerNum], 'price': price['price'], 'side': side, 'sellAt': predicted_sellAt, 'sellAt_%': predict_percent, 'amount': amountINcurrency}
-
+        logging.info('Done Transaction: ' + str(transaction_dict))
+        print(transaction_dict)
         import sqlite3
         con = sqlite3.connect('transaction.db')
         cur = con.cursor()
@@ -53,7 +63,6 @@ class transaction:
                     'price'], transaction_dict['side'], transaction_dict['sellAt'], transaction_dict['sellAt_%'], transaction_dict['amount']))
         con.commit()
         con.close()
-
         # save open order file
         try:
             with open('data.json') as json_file:
@@ -67,6 +76,7 @@ class transaction:
             a_file = open("data.json", "w")
             json.dump(dict, a_file)
             a_file.close()
+        logging.debug('Done saving transaction')
 
 
 class model:
@@ -74,10 +84,11 @@ class model:
     PERCENT_CERTAINTY_THRESHOLD = 1.5  # higher than predicted percentage
 
     def check(tickerNum: int):  # check if change is less than threshold then allow // risk management // enough Money? // Order numbers
+        logging.debug('Checking Parameters: ' + str(currency[tickerNum]))
         HIS = APIdata(tickerNum)
         today_change = float(((HIS[0] - HIS[1]) / HIS[1]) * 100)
         if (abs(today_change) < model.TRANSACTIONS_THRESHOLD) and (len(client.get_open_orders()) == 0):
-            return "allow"
+            return "allow", today_change
         else:
             return "deny", today_change
 
@@ -85,11 +96,11 @@ class model:
         allowed_currency = {}
         for x in range(len(currency)):
             PREDICTED = A004Main(x)['predictedChg']
-            if model.check(x) == "allow" and model.PERCENT_CERTAINTY_THRESHOLD < PREDICTED:
+            if model.check(x)[0] == "allow" and model.PERCENT_CERTAINTY_THRESHOLD < PREDICTED:
                 allowed_currency.update({x: PREDICTED})
             else:
                 print(
-                    currency[x], "   ---status---:>> denied order :: with predict_chg: ", PREDICTED, model.check(x)[1])
+                    currency[x], "   ---INFO---:>> denied order :: with predict_chg: ", PREDICTED, model.check(x)[1])
 
         sorted_dict = {}
         sorted_keys = sorted(
@@ -103,4 +114,9 @@ class model:
             buy_ticker_num)['predictedChg'])
 
 
-model.make_order()
+try:
+    while (datetime.now().strftime('%M') == '00'):
+        model.make_order()
+        time.sleep(70)
+except:
+    error()

@@ -1,0 +1,410 @@
+
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.binance.com:443
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/ping HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BTC-USD?period1=-631159200&period2=1659190503&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BTC-USD?period1=-631159200&period2=1659190505&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BTC-USD?period1=-631159200&period2=1659190505&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:root:Checking Parameters: BTC
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BTC-USD?period1=-631159200&period2=1659190505&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 103069
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/openOrders?timestamp=1659190505933&signature=2f3bfce1b6c57eb538565aac0a3ceb0e5167353353c30aecef7e0aa75ffc5e21 HTTP/1.1" 200 2
+DEBUG:root:Checking Parameters: BTC
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BTC-USD?period1=-631159200&period2=1659190506&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/openOrders?timestamp=1659190506273&signature=95f0986a5273881850260aa7d832f8dfeace46a169d4038098b8b4ef1637d73b HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659190506&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659190506&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659190507&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:root:Checking Parameters: ETH
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659190507&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/openOrders?timestamp=1659190507469&signature=b29bdd3571c2f0afa88fd9e6fcba1f2a024dea933e3448ab3d34a424d9b4737e HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BNB-USD?period1=-631159200&period2=1659190507&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BNB-USD?period1=-631159200&period2=1659190507&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BNB-USD?period1=-631159200&period2=1659190508&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:root:Checking Parameters: BNB
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BNB-USD?period1=-631159200&period2=1659190508&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/openOrders?timestamp=1659190508618&signature=d72b1642ecd118ead3498073f56349bbdfb0557d70c83775fdeff9910f9c387d HTTP/1.1" 200 2
+DEBUG:root:Checking Parameters: BNB
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BNB-USD?period1=-631159200&period2=1659190509&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/openOrders?timestamp=1659190509232&signature=0939921889e372374dd80755d84856650ec7a384e50aac0287b5e26ef6ca90da HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659190509&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659190509&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659190510&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:root:Making transaction
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/ticker/price?symbol=ETHUSDT HTTP/1.1" 200 44
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "POST /api/v3/order/test HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "POST /api/v3/order/test HTTP/1.1" 200 2
+INFO:root:Done Transaction: {'period': '07/30/2022, 21:15:14', 'currency': 'ETH', 'price': '1726.66000000', 'side': 'BUY', 'sellAt': 1755.93, 'sellAt_%': 1.6954551409411214, 'amount': 0.0579}
+DEBUG:root:Done saving transaction
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.binance.com:443
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/ping HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BTC-USD?period1=-631159200&period2=1659218723&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BTC-USD?period1=-631159200&period2=1659218724&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BTC-USD?period1=-631159200&period2=1659218725&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:root:Checking Parameters: BTC
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BTC-USD?period1=-631159200&period2=1659218725&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/openOrders?timestamp=1659218725669&signature=bb2da57ecc005c798666b75a32f23fecfc847c89d586d9f7f84a2214b07fa930 HTTP/1.1" 200 2
+DEBUG:root:Checking Parameters: BTC
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BTC-USD?period1=-631159200&period2=1659218725&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/openOrders?timestamp=1659218726012&signature=79f9b9b903020aa60434eb8b519f22814d40da8f78e6852cd96f2f371c59718b HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659218726&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659218726&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659218726&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:root:Checking Parameters: ETH
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659218727&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/openOrders?timestamp=1659218727256&signature=45b8917ccb526fc2ff6f48a0988c0d921c1eed65418f1a7efce5235b8301619a HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BNB-USD?period1=-631159200&period2=1659218727&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BNB-USD?period1=-631159200&period2=1659218727&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BNB-USD?period1=-631159200&period2=1659218728&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:root:Checking Parameters: BNB
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BNB-USD?period1=-631159200&period2=1659218728&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/openOrders?timestamp=1659218728426&signature=48a3cbc739f353f25d2a82f5b5bbd015a5b6f8038177c7466d4d8090a1c6a931 HTTP/1.1" 200 2
+DEBUG:root:Checking Parameters: BNB
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BNB-USD?period1=-631159200&period2=1659218728&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/openOrders?timestamp=1659218728752&signature=c8ef23f2b9e0f2c21419648862440c6cf2fc22405d921061f34867804cb670dd HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659218728&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659218729&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659218729&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:root:Making transaction
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/ticker/price?symbol=ETHUSDT HTTP/1.1" 200 44
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "POST /api/v3/order/test HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "POST /api/v3/order/test HTTP/1.1" 200 2
+INFO:root:Done Transaction: {'period': '07/31/2022, 05:05:32', 'currency': 'ETH', 'price': '1685.48000000', 'side': 'BUY', 'sellAt': 1712.75, 'sellAt_%': 1.61805620194612, 'amount': 0.0593}
+DEBUG:root:Done saving transaction
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.binance.com:443
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/ping HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BTC-USD?period1=-631159200&period2=1659224872&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BTC-USD?period1=-631159200&period2=1659224876&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BTC-USD?period1=-631159200&period2=1659224876&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:root:Checking Parameters: BTC
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BTC-USD?period1=-631159200&period2=1659224877&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/openOrders?timestamp=1659224877281&signature=369f06cf9e0d10eda97af7ec75f268e69f1247426204fff38c455a01bb394ba7 HTTP/1.1" 200 2
+DEBUG:root:Checking Parameters: BTC
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BTC-USD?period1=-631159200&period2=1659224877&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/openOrders?timestamp=1659224877614&signature=a349b1e7028e1b0daeeac7f50481242bb4b2338263d78361b42b33b4587aab98 HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659224877&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659224878&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659224878&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:root:Checking Parameters: ETH
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659224878&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/openOrders?timestamp=1659224878801&signature=044521b2e4641dc677814046234d8016cd173adb97a343b3508bc42663ece7c9 HTTP/1.1" 200 2
+DEBUG:root:Checking Parameters: ETH
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659224878&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 72062
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/openOrders?timestamp=1659224879107&signature=0895047728307944136b43dec82d402569d851295dc473b4f67cb1497c0449f9 HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BNB-USD?period1=-631159200&period2=1659224879&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BNB-USD?period1=-631159200&period2=1659224879&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BNB-USD?period1=-631159200&period2=1659224879&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 69126
+DEBUG:root:Checking Parameters: BNB
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BNB-USD?period1=-631159200&period2=1659224880&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/openOrders?timestamp=1659224880245&signature=2fde1d4300c77ce31decdd0234174e14c6d34ec387c9343678ff2d9208336572 HTTP/1.1" 200 2
+DEBUG:root:Checking Parameters: BNB
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BNB-USD?period1=-631159200&period2=1659224880&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/openOrders?timestamp=1659224880558&signature=c6be6dc6f6fc6307b8bcde9853c7331b2a770d798cd8b687f71e1c3089f1328d HTTP/1.1" 200 2
+ERROR:root:(<class 'IndexError'>, IndexError('list index out of range'), <traceback object at 0x0000015813A50DC0>)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.binance.com:443
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/ping HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BTC-USD?period1=-631159200&period2=1659224928&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BTC-USD?period1=-631159200&period2=1659224930&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BTC-USD?period1=-631159200&period2=1659224930&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:root:Checking Parameters: BTC
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BTC-USD?period1=-631159200&period2=1659224930&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 103089
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/openOrders?timestamp=1659224931024&signature=b02fdb633f8ce9073bd26c5c40e09a480b46a4a48273fc48a93fcabee0e19326 HTTP/1.1" 200 2
+DEBUG:root:Checking Parameters: BTC
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BTC-USD?period1=-631159200&period2=1659224931&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/openOrders?timestamp=1659224931349&signature=0f717e7cceeda5ff6e7aed12f5ba7e53b1e4ff08c46a346a0d34897fde1fb938 HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659224931&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659224931&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659224932&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:root:Checking Parameters: ETH
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659224932&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/openOrders?timestamp=1659224932509&signature=17414eb0344e80e43bf683aceac3db9fbec5ba2cf313436f9314ba461da271ea HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BNB-USD?period1=-631159200&period2=1659224932&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BNB-USD?period1=-631159200&period2=1659224933&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BNB-USD?period1=-631159200&period2=1659224933&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:root:Checking Parameters: BNB
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BNB-USD?period1=-631159200&period2=1659224933&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 68154
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/openOrders?timestamp=1659224933633&signature=e5f178a72a63f583a7355182f5d7643e75c8b9d326c56d79848ddeddee55b4dd HTTP/1.1" 200 2
+DEBUG:root:Checking Parameters: BNB
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BNB-USD?period1=-631159200&period2=1659224933&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/openOrders?timestamp=1659224933948&signature=43a4fc3e79739498712576a6734f31fb6ff5b6765db46ddd9c3b8e52077e0d6c HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659224934&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659224934&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659224934&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:root:Making transaction
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/ticker/price?symbol=ETHUSDT HTTP/1.1" 200 44
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "POST /api/v3/order/test HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "POST /api/v3/order/test HTTP/1.1" 200 2
+INFO:root:Done Transaction: {'period': '07/31/2022, 06:48:58', 'currency': 'ETH', 'price': '1693.09000000', 'side': 'BUY', 'sellAt': 1720.49, 'sellAt_%': 1.61805620194612, 'amount': 0.0591}
+DEBUG:root:Done saving transaction
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.binance.com:443
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/ping HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BTC-USD?period1=-631159200&period2=1659225852&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BTC-USD?period1=-631159200&period2=1659225853&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BTC-USD?period1=-631159200&period2=1659225854&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:root:Checking Parameters: BTC
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BTC-USD?period1=-631159200&period2=1659225854&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/openOrders?timestamp=1659225854659&signature=9713a7de71803330ef13ba5806aedbbe9131b9b2740e0b929b172e9ef37ecdad HTTP/1.1" 200 2
+DEBUG:root:Checking Parameters: BTC
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BTC-USD?period1=-631159200&period2=1659225854&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/openOrders?timestamp=1659225854973&signature=35dee58e2dc0eae1d4c244d0a50bbc3a9e927122789b883205b05aa9088c3761 HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659225855&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659225855&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659225855&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:root:Checking Parameters: ETH
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659225855&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/openOrders?timestamp=1659225856129&signature=e2b41a210f93add0293d77ed73742e9bbed64ff9d98edcaba1bc0f59182d30ce HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BNB-USD?period1=-631159200&period2=1659225856&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BNB-USD?period1=-631159200&period2=1659225856&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BNB-USD?period1=-631159200&period2=1659225856&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:root:Checking Parameters: BNB
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BNB-USD?period1=-631159200&period2=1659225857&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/openOrders?timestamp=1659225857263&signature=da540f99fc13c7f5126b225ecb77aec80103e3d413340060c1e6b446d9686483 HTTP/1.1" 200 2
+DEBUG:root:Checking Parameters: BNB
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BNB-USD?period1=-631159200&period2=1659225857&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/openOrders?timestamp=1659225857575&signature=97cfe1f91478056c127e39c83fcbb8d3e43128976f6f4c1d85733e494bfe050b HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659225857&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659225858&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659225858&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:root:Making transaction
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/ticker/price?symbol=ETHUSDT HTTP/1.1" 200 44
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "POST /api/v3/order/test HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "POST /api/v3/order/test HTTP/1.1" 200 2
+INFO:root:Done Transaction: {'period': '07/31/2022, 07:04:21', 'currency': 'ETH', 'price': '1689.97000000', 'side': 'BUY', 'sellAt': 1717.51, 'sellAt_%': 1.6296466805866676, 'amount': 0.0592}
+DEBUG:root:Done saving transaction
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.binance.com:443
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/ping HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BTC-USD?period1=-631159200&period2=1659228302&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BTC-USD?period1=-631159200&period2=1659228303&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BTC-USD?period1=-631159200&period2=1659228303&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:root:Checking Parameters: BTC
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BTC-USD?period1=-631159200&period2=1659228303&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/openOrders?timestamp=1659228304100&signature=a93cbe4ea47c85394428ce7ca502a677b49321034a802aeca1046c8722e0ac15 HTTP/1.1" 200 2
+DEBUG:root:Checking Parameters: BTC
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BTC-USD?period1=-631159200&period2=1659228304&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/openOrders?timestamp=1659228304419&signature=9dfabfc90edaacfa4a74dbf3c4f3965bbbd1df10604f30239a554f016c86205d HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659228304&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659228304&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659228305&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:root:Checking Parameters: ETH
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659228305&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/openOrders?timestamp=1659228305527&signature=031418fb3ffb8e17e56dc15f7f87bf9bcdf255410c62ff9a25db16be1c12692e HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BNB-USD?period1=-631159200&period2=1659228305&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BNB-USD?period1=-631159200&period2=1659228306&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BNB-USD?period1=-631159200&period2=1659228306&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 81539
+DEBUG:root:Checking Parameters: BNB
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BNB-USD?period1=-631159200&period2=1659228306&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/openOrders?timestamp=1659228306619&signature=f0d14013d6a7a20ceaef35b253acf85f58114ce29cd1226a50cd03a21a1143e0 HTTP/1.1" 200 2
+DEBUG:root:Checking Parameters: BNB
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BNB-USD?period1=-631159200&period2=1659228306&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 81481
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/openOrders?timestamp=1659228306932&signature=22c490cc0cce7476672bedcbbde8a2ca9a8bd37acac68e5396b0307fcc408a3e HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659228307&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659228307&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659228307&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:root:Making transaction
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/ticker/price?symbol=ETHUSDT HTTP/1.1" 200 44
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "POST /api/v3/order/test HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "POST /api/v3/order/test HTTP/1.1" 200 2
+INFO:root:Done Transaction: {'period': '07/31/2022, 07:45:11', 'currency': 'ETH', 'price': '1706.32000000', 'side': 'BUY', 'sellAt': 1734.48, 'sellAt_%': 1.6502110110971302, 'amount': 0.0586}
+DEBUG:root:Done saving transaction
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.binance.com:443
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/ping HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BTC-USD?period1=-631159200&period2=1659234787&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BTC-USD?period1=-631159200&period2=1659234789&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BTC-USD?period1=-631159200&period2=1659234789&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:root:Checking Parameters: BTC
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BTC-USD?period1=-631159200&period2=1659234789&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/openOrders?timestamp=1659234789831&signature=ee3abf00ae1cbf43868509f2d8bb3f13519d5b6e204c0cc3c0412e25a67ab5f7 HTTP/1.1" 200 2
+DEBUG:root:Checking Parameters: BTC
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BTC-USD?period1=-631159200&period2=1659234789&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/openOrders?timestamp=1659234790180&signature=652039625c7448667d5d30006e54090cbaa7f1fd9534e4d428a79a49ccc2e122 HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659234790&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659234790&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659234791&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:root:Checking Parameters: ETH
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659234791&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 60524
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/openOrders?timestamp=1659234791409&signature=f3dee82b4480af3a6b43a1bbd015d0cefdf39b9ba08b22297c85d369e254fffb HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BNB-USD?period1=-631159200&period2=1659234791&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BNB-USD?period1=-631159200&period2=1659234791&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BNB-USD?period1=-631159200&period2=1659234792&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:root:Checking Parameters: BNB
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BNB-USD?period1=-631159200&period2=1659234792&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/openOrders?timestamp=1659234792531&signature=3e2943ac95c81c42736b9139e11106ced18e2b81cb8cd9b0f4d509502e77a8e7 HTTP/1.1" 200 2
+DEBUG:root:Checking Parameters: BNB
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BNB-USD?period1=-631159200&period2=1659234792&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/openOrders?timestamp=1659234792846&signature=5f24864dbe2c77e6c9830d3fee4c7b09f8207f7c0a0a6b27ad722a4e350b1f61 HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659234792&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659234793&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659234793&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:root:Making transaction
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/ticker/price?symbol=ETHUSDT HTTP/1.1" 200 44
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "POST /api/v3/order/test HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "POST /api/v3/order/test HTTP/1.1" 200 2
+INFO:root:Done Transaction: {'period': '07/31/2022, 09:33:17', 'currency': 'ETH', 'price': '1694.39000000', 'side': 'BUY', 'sellAt': 1722.92, 'sellAt_%': 1.683919154613411, 'amount': 0.059}
+DEBUG:root:Done saving transaction
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.binance.com:443
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/ping HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BTC-USD?period1=-631159200&period2=1659272204&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BTC-USD?period1=-631159200&period2=1659272207&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BTC-USD?period1=-631159200&period2=1659272208&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:root:Checking Parameters: BTC
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BTC-USD?period1=-631159200&period2=1659272208&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/openOrders?timestamp=1659272208494&signature=ef8432ee3afe9f949b6e50c0ea4d2d619a13fe29b203be62050410527131c569 HTTP/1.1" 200 2
+DEBUG:root:Checking Parameters: BTC
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BTC-USD?period1=-631159200&period2=1659272208&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 103105
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/openOrders?timestamp=1659272208829&signature=4409eb60651546fb19bf3138d286ee4e1b802ef248b6a30132f7dadd164b6ce1 HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659272208&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659272209&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659272209&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:root:Checking Parameters: ETH
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659272209&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/openOrders?timestamp=1659272209985&signature=087681fa5c6619775a0589c2b3a4013b880f8eaafd31290ad01546dfc6982e2b HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BNB-USD?period1=-631159200&period2=1659272210&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BNB-USD?period1=-631159200&period2=1659272210&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BNB-USD?period1=-631159200&period2=1659272210&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:root:Checking Parameters: BNB
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BNB-USD?period1=-631159200&period2=1659272210&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 81555
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/openOrders?timestamp=1659272211062&signature=9681a61466dca2140a363f8fb53f5c7ec31193a5a08ee39cfb05402376bab30f HTTP/1.1" 200 2
+DEBUG:root:Checking Parameters: BNB
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/BNB-USD?period1=-631159200&period2=1659272211&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/openOrders?timestamp=1659272211384&signature=a168dde4104f4afcb4141b946ba2427ba9fdd7507f381ddbe76818e753478aba HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659272211&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659272211&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/ETH-USD?period1=-631159200&period2=1659272212&interval=1d&includePrePost=False&events=div%2Csplits HTTP/1.1" 200 None
+DEBUG:root:Making transaction
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "GET /api/v3/ticker/price?symbol=ETHUSDT HTTP/1.1" 200 44
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "POST /api/v3/order/test HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:https://api.binance.com:443 "POST /api/v3/order/test HTTP/1.1" 200 2
+INFO:root:Done Transaction: {'period': '07/31/2022, 19:56:55', 'currency': 'ETH', 'price': '1717.57000000', 'side': 'BUY', 'sellAt': 1747.31, 'sellAt_%': 1.7313983971573388, 'amount': 0.0582}
+DEBUG:root:Done saving transaction

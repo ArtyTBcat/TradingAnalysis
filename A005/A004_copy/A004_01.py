@@ -1,11 +1,7 @@
-import numpy as np
 from A004_copy import model
 import yfinance as yf
 import matplotlib.pyplot as plt
 import pandas as pd
-import logging
-logging.basicConfig(filename='A004-01.log',
-                    encoding='utf-8', level=logging.DEBUG)
 
 currency = ['BTC', 'ETH', 'BNB']
 
