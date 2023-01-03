@@ -10,8 +10,8 @@ currency = ['BTC', 'ETH', 'BNB']
 logging.basicConfig(filename='log.log',
                     encoding='utf-8', level=logging.DEBUG)
 
-client = Client('XzHurmeqBHZRopTs9jPBtYa1IpJopkm12gE4zE6DTMpU7sTPJHE6lDH5cSUvUkCx',
-                'rdzqLgixUH7Svt82zb0Hc8ESkwydRA4Sj4pwVW8NazfuNod8zORTxYJoEMRZRUs9')
+client = Client('-----API-------',
+                '---Key---')
 
 
 def APIdata(tickerNum: int):  # DataSet historical[1],
