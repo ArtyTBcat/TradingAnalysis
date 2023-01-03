@@ -3,7 +3,7 @@ import yfinance as yf
 import sqlite3
 from binance import Client
 
-client = Client('7n5TvJOJF0A7zKykvw62pqmIoFyluRAneNbjFu3v2jw9FKEJMCirUe4zOvo9KArh', '8N0FnpzwQuELoKaIARZkCAbA9VAym4xTbQQCQxkZ59MNHTHKGZJ4zedzghIuP083')
+client = Client('----API-----', '----KEY-----')
 con = sqlite3.connect('data.db')
 cur = con.cursor()
 
