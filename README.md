@@ -1,5 +1,5 @@
 # TradingAnalysis
-**** Note do not make this a public repository ****
+**** Download the librarys before using ****
 
 Arty's 1 year of TradingAnalysis code not including the 2 years of code that he wrote
 <br>Note!! This is since 2018
