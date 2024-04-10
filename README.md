@@ -48,6 +48,7 @@ These are just a few examples of the many different versions and approaches to t
 <img width="1223" alt="Screenshot 2566-02-14 at 12 23 04" src="https://user-images.githubusercontent.com/77570219/218673731-f419e21d-36a7-4b75-8960-807b8bbb0469.png">
 
 <img width="1275" alt="Screenshot 2566-02-14 at 12 22 05" src="https://user-images.githubusercontent.com/77570219/218673905-2a4d8f9d-2570-4bae-8334-fbe5a82c33de.png">
+Figure 2.1 & Figure 2.2 Show Profit Traded by the Program. Note that this is profit from multiple iterations
 <br><br>
 API keys & secret are still active but cant't be withdrawn
 <br><br>
