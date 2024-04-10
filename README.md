@@ -25,7 +25,7 @@ This type of analysis can help traders and investors to identify the most profit
 
 ![Figure_1](https://user-images.githubusercontent.com/77570219/218674130-a4496621-aa24-4afb-a4b8-6d431513b1b8.png)
 <br>
-**picture shows compairison of each model predicted values**
+**figure 1 compairison of each model predicted values**
 <br>
 
 Trading analysis is a broad field that encompasses a wide range of methods, techniques, and tools for evaluating and interpreting financial market data. As such, there are many different versions and approaches to trading analysis, each with its own strengths, weaknesses, and areas of specialization. Some of the most common versions of trading analysis include:
